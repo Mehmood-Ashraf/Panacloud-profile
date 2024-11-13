@@ -1,0 +1,15 @@
+
+@media (max-width: 600px) {
+    .header{
+        display: block;
+    }
+    .contact{
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: space-between;
+    }
+}
