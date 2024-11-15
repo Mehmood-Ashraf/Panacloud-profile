@@ -1,15 +1,214 @@
 
-@media (max-width: 600px) {
-    .header{
+@media (max-width: 1000px) {
+    .nav-icons{
+        display: none;
+    }
+
+    .toogleBtn{
         display: block;
     }
+
+    .cards{
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card img{
+        width: 80px;
+    }
+
+    .portfolio-images1 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .portfolio-images1{
+        height: auto;
+    }
+
+    .btn1 button{
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn1 button img{
+        height: auto;
+    }
+
+    .skill-images{
+        flex-direction: column;
+    }
+
+    .images2{
+        width: 100%;
+    }
+
+    .flex-col-1000{
+        flex-direction: column !important;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .foot1{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .foot4{
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .portfolio-images1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .portfolio-icons{
+        font-size: 12px;
+    }
+
+    .btn-text p{
+        display: none;
+    }
+
+    .process-btn{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn1{
+        gap: 10px;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+
+    .main-foot{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .d-none{
+        display: none;
+    }
+
     .contact{
         justify-content: space-between;
-        margin-top: 10px;
+    }
+
+    .call{
+        padding: 8px;
     }
 
     .logos{
         display: flex;
+        gap: 5px;
         justify-content: space-between;
+    }
+
+    .logos button{
+        width: 25px;
+        height: 25px;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+
+    .content p{
+        font-size: 18px;
+    }
+
+    .btn{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .w-100m{
+        width: 100% !important;
+    }
+
+    .heading h1{
+        font-size: 35px;
+    }
+
+    .para{
+        font-size: 14px;
+    }
+
+    .images{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    
+    .image h1{
+        font-size: 16px;
+    }
+
+    .image p{
+        display: none;
+    }
+
+    .toogleBtn{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo{
+        height: 50px;
+    }
+
+    .fs-14m{
+        font-size: 14px;
+    }
+
+    .text-cm{
+        text-align: center;
+    }
+
+    .portfolio-images1 img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .mini-container1{
+        gap: 15px;
+    }
+
+    .mini-container1 img {
+        height: 70px;
+    }
+
+    
+}
+
+
+@media (max-width: 400px) {
+    .card img{
+        display: none;
+    }
+
+    .image1 img{
+        height: 150px;
     }
 }
